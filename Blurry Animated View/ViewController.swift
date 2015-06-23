@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 		let passText = passWord.text
 		
 		if ((userText == "guest") && (passText == "password")) {
-			let alert = UIAlertController(title: "Login Success", message: "You either looked at the code, or are really good at guessing.", preferredStyle: UIAlertControllerStyle.Alert)
+			let alert = UIAlertController(title: "Login Success", message: "You either looked at the code, or you are really good at guessing.", preferredStyle: UIAlertControllerStyle.Alert)
 			alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
 			self.presentViewController(alert, animated: true, completion: nil)
 		} else {
